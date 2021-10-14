@@ -13,6 +13,8 @@
 		3C5634752703A68600EB996C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5634742703A68600EB996C /* Item.swift */; };
 		3C5634772703B4A500EB996C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5634762703B4A500EB996C /* Card.swift */; };
 		3C56348027041BBB00EB996C /* UserDefaults+CustomKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56347F27041BBB00EB996C /* UserDefaults+CustomKeys.swift */; };
+		B00715F42718BA3E00B4E07A /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB9D270102C900F8CCAC /* PokeAPI.swift */; };
+		B00715F52718BA3F00B4E07A /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB9D270102C900F8CCAC /* PokeAPI.swift */; };
 		C36BFB582700DCCE00F8CCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB572700DCCE00F8CCAC /* AppDelegate.swift */; };
 		C36BFB5A2700DCCE00F8CCAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB592700DCCE00F8CCAC /* SceneDelegate.swift */; };
 		C36BFB5F2700DCCE00F8CCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BFB5D2700DCCE00F8CCAC /* Main.storyboard */; };
@@ -405,6 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36BFB722700DCD100F8CCAC /* IOSBootcampChallengeTests.swift in Sources */,
+				B00715F52718BA3F00B4E07A /* PokeAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +415,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B00715F42718BA3E00B4E07A /* PokeAPI.swift in Sources */,
 				C36BFB7C2700DCD100F8CCAC /* IOSBootcampChallengeUITests.swift in Sources */,
 				C36BFB7E2700DCD100F8CCAC /* IOSBootcampChallengeUITestsLaunchTests.swift in Sources */,
 			);
@@ -575,7 +579,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 88Z92A4P93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS Bootcamp Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -606,7 +610,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 88Z92A4P93;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS Bootcamp Challenge/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
