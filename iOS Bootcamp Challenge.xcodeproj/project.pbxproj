@@ -15,6 +15,10 @@
 		3C56348027041BBB00EB996C /* UserDefaults+CustomKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C56347F27041BBB00EB996C /* UserDefaults+CustomKeys.swift */; };
 		B00715F42718BA3E00B4E07A /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB9D270102C900F8CCAC /* PokeAPI.swift */; };
 		B00715F52718BA3F00B4E07A /* PokeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB9D270102C900F8CCAC /* PokeAPI.swift */; };
+		B00715F62718BEFC00B4E07A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB972700F07900F8CCAC /* Pokemon.swift */; };
+		B00715F72718BEFC00B4E07A /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB972700F07900F8CCAC /* Pokemon.swift */; };
+		B00715F82718C67800B4E07A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB8C2700E6AE00F8CCAC /* ListViewController.swift */; };
+		B00715F92718C67800B4E07A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB8C2700E6AE00F8CCAC /* ListViewController.swift */; };
 		C36BFB582700DCCE00F8CCAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB572700DCCE00F8CCAC /* AppDelegate.swift */; };
 		C36BFB5A2700DCCE00F8CCAC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36BFB592700DCCE00F8CCAC /* SceneDelegate.swift */; };
 		C36BFB5F2700DCCE00F8CCAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36BFB5D2700DCCE00F8CCAC /* Main.storyboard */; };
@@ -408,6 +412,8 @@
 			files = (
 				C36BFB722700DCD100F8CCAC /* IOSBootcampChallengeTests.swift in Sources */,
 				B00715F52718BA3F00B4E07A /* PokeAPI.swift in Sources */,
+				B00715F82718C67800B4E07A /* ListViewController.swift in Sources */,
+				B00715F62718BEFC00B4E07A /* Pokemon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +422,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B00715F42718BA3E00B4E07A /* PokeAPI.swift in Sources */,
+				B00715F72718BEFC00B4E07A /* Pokemon.swift in Sources */,
 				C36BFB7C2700DCD100F8CCAC /* IOSBootcampChallengeUITests.swift in Sources */,
+				B00715F92718C67800B4E07A /* ListViewController.swift in Sources */,
 				C36BFB7E2700DCD100F8CCAC /* IOSBootcampChallengeUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

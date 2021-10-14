@@ -63,9 +63,9 @@ struct Pokemon: Decodable, Equatable {
         self.image = try? officialArtWork.decode(String.self, forKey: .frontDefault)
 
         // TODO: Decode list of types & abilities
-
-        self.types = []
-        self.abilities = []
+        // Error de que al cambiar [] por mi codigo no aparece nada en ListViewController
+        self.types = [] // try container.decode([String].self, forKey: .types)
+        self.abilities = [] // try container.decode([String].self, forKey: .abilities)
 
         self.weight = try container.decode(Float.self, forKey: .weight)
         self.baseExperience = try container.decode(Int.self, forKey: .baseExperience)
